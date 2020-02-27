@@ -10,13 +10,12 @@ namespace Practical_4
     {
         static void Main(string[] args)
         {
-            string infix = "a+(b+c)*d/e";
+            string infix = "a+(b*c)/d-e";
             Console.WriteLine("Infix String:" + infix);
             string postfix = "";
             Class1 p = new Class1();
             p.InfixToPostFix(ref infix, out postfix);
             Console.Read();
-
         }
     }
     class Class1
@@ -29,7 +28,7 @@ namespace Practical_4
         for (int i = 0; i < infix.Length; i++)
         {
             ch = infix[i];
-            if (isOperator(ch))
+            if (Operator(ch))
             {
                 if (stack.Count == 0)
                 {
@@ -73,7 +72,7 @@ namespace Practical_4
             postfix += item;
         Console.WriteLine("Postfix String:" + postfix);
     }
-    public Boolean isOperator(char ch)
+    public Boolean Operator(char ch)
     {
         if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '(' || ch == ')' || ch == '^')
             return true;

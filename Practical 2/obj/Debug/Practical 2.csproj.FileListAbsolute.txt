@@ -1,0 +1,6 @@
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\bin\Debug\Practical 2.exe.config
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\bin\Debug\Practical 2.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\bin\Debug\Practical 2.pdb
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\obj\Debug\Practical 2.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\obj\Debug\Practical 2.pdb
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 2\obj\Debug\Practical 2.csprojAssemblyReference.cache
