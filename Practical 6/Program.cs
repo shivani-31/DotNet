@@ -44,17 +44,10 @@ namespace Practical_6
                     numberInWords = upToFiveDigits(numberString);
                 else if (numberString.Length < 8)
                     numberInWords = upToSevenDigits(numberString);
-                else if (numberInWords.Length < 10)
-                    numberInWords = upToNineDigits(numberString);
 
                 Console.WriteLine(numberInWords);
                 numberInWords = "";
             } while (true);
-        }
-
-        private static string upToNineDigits(string numberString)
-        {
-            return "To be implemented for Crores\n";
         }
 
         private static string upToSevenDigits(string numbeString)

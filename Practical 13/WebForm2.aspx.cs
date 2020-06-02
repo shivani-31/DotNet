@@ -11,7 +11,7 @@ namespace Practical_13
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack)
+            if (!IsPostBack)
             {
                 lblUsername.Text = Session["Username"].ToString();
             }

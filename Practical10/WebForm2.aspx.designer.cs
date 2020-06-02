@@ -9,8 +9,6 @@
 
 namespace Practical10
 {
-
-
     public partial class WebForm2
     {
 
