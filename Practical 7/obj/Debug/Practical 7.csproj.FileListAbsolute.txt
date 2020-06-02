@@ -1,0 +1,6 @@
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\bin\Debug\Practical 7.exe.config
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\bin\Debug\Practical 7.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\bin\Debug\Practical 7.pdb
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\obj\Debug\Practical 7.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\obj\Debug\Practical 7.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 7\obj\Debug\Practical 7.pdb

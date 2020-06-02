@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Code for number conversion
+ * -Binary to Decimal
+ * -Decimal to Binary
+ * -Decimal to Hexadecimal
+ * -Decimal to Octal
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +24,7 @@ namespace Practical_3
             p.binaryToDecimal();
 
         }
+        //Conversion from decimal to binary
         void decimalToBinary()
         {
             Console.WriteLine("Decimal to Binary Conversion");
@@ -43,6 +51,7 @@ namespace Practical_3
             Console.WriteLine("");
             Console.WriteLine("-----------------------------------------------------------------------------------------------------");
         }
+        //Conversion from decimal to octal
         void decimalToOctagal()
         {
             Console.WriteLine("Decimal to Octagonal Conversion");
@@ -70,7 +79,7 @@ namespace Practical_3
             Console.WriteLine("");
             Console.WriteLine("-----------------------------------------------------------------------------------------------------");
         }
-
+        //Conversion from decimal to hexadecimal
         void decimalToHexa()
         {
             Console.WriteLine("Decimal to HexaDecimal Conversion");
@@ -105,7 +114,7 @@ namespace Practical_3
             Console.WriteLine("");
             Console.WriteLine("-----------------------------------------------------------------------------------------------------");
         }
-
+        //Conversion from binary to decimal
         void binaryToDecimal()
         {
             Console.WriteLine("Binary to Decimal Conversion");

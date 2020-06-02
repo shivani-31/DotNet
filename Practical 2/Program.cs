@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Prompt a user to input his/her name and country name 
+ * and then the output will be shown as an example below: 
+ * Hello Ram from country India!
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

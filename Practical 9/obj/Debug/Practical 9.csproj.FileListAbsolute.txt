@@ -1,0 +1,9 @@
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\bin\Debug\Practical 9.exe.config
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\bin\Debug\Practical 9.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\bin\Debug\Practical 9.pdb
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical 9.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical_9.Form1.resources
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical_9.Properties.Resources.resources
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical 9.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical 9.exe
+C:\Users\DELL\Documents\DotNetProjects\DotNetPractical\Practical 9\obj\Debug\Practical 9.pdb

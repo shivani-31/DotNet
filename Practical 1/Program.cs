@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Program for displaying different aestrick Patterns.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace Practical_1
             Pattern4();
             Console.Read();
         }
+        //Function for Diamond Pattern
         private static void Pattern4()
         {
             Console.WriteLine("Pattern 4");
@@ -48,7 +50,7 @@ namespace Practical_1
                 Console.WriteLine();
             }
         }
-
+        //Function for right side triangle
         private static void Pattern3()
         {
             Console.WriteLine("Pattern 3");
@@ -65,7 +67,7 @@ namespace Practical_1
                 Console.WriteLine();
             }
         }
-
+        //Function for Left side triangle
         private static void Pattern2()
         {
             Console.WriteLine("Pattern 2");
@@ -78,7 +80,7 @@ namespace Practical_1
                 Console.WriteLine();
             }
         }
-
+        //Function for square Pattern
         private static void Pattern1()
         {
             Console.WriteLine("Pattern 1");

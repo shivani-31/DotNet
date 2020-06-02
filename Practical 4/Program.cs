@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * Convert infix string to postfix string
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,8 +31,10 @@ namespace Practical_4
         for (int i = 0; i < infix.Length; i++)
         {
             ch = infix[i];
+            //Check is current symbol is operator
             if (Operator(ch))
             {
+                //If stack is empty push current operator to stack
                 if (stack.Count == 0)
                 {
                     stack.Push(ch);
@@ -42,21 +47,26 @@ namespace Practical_4
                     }
                     else if(ch == ')')
                                         {
+                         //Pop all operator in postfix until (
                         while (stack.Peek() != '(')
                         {
                             postfix += stack.Pop();
                         }
+                        //Pop operator (
                         stack.Pop();
                     }
                     else
                     {
-                        if (priority(ch) > priority(stack.Peek()))
+                            //If new operator has higher priority than top of the stack then push it to the stack
+                            if (priority(ch) > priority(stack.Peek()))
                         {
                             stack.Push(ch);
                         }
                         else
                         {
+                            //Pop top of stack into postfix
                             postfix += stack.Pop();
+                            //Decrease i to operate same input in the next iteration
                             i--;
                         }
 
@@ -65,10 +75,12 @@ namespace Practical_4
             }
             else
             {
+                //Add every operand into postfix
                 postfix += ch;
             }
         }
-        foreach (var item in stack)
+        //Pop all remaining operators from stack to postfix expression
+         foreach (var item in stack)
             postfix += item;
         Console.WriteLine("Postfix String:" + postfix);
     }
@@ -81,6 +93,7 @@ namespace Practical_4
     }
     public int priority(char ch)
     {
+        //Returns priority for all operator
         switch (ch)
         {
             case '(':
